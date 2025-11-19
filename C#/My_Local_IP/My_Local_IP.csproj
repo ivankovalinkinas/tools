@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>AnyCPU;x64</Platforms>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <ApplicationIcon>network_cable_32x32.ico</ApplicationIcon>
+    <Authors>Ivan Barbosa Kovalinkinas</Authors>
+    <Description>Exibe o hostname e os endereçamentos IPv4</Description>
+    <Title>Meu IP Local</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="network_cable_32x32.ico" />
+  </ItemGroup>
+
+</Project>
